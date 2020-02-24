@@ -1,10 +1,20 @@
 .hero-section{
-    background-image: url("images/biography-bg.png");
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position:left;
     background-size: cover;
     width: 100%;
     float: left;
+}
+.im-media{
+    width: 75%;
+}
+.nav-link{
+    font-weight: bold;
+    color: gray;
+}
+.margin-topp{
+    margin-top: 100px;
 }
 .margin-bottom-container{
     margin-bottom: 80px;
@@ -50,7 +60,7 @@
     margin-top: 150px;
     text-align: center;
 }
-span{
+.span{
     display: block;
     margin: 0 auto;
     border-bottom: 7px solid orange;
