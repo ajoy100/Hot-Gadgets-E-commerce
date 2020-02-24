@@ -66,5 +66,29 @@
     border-bottom: 7px solid orange;
     width: 8%;
     margin-top: 10px;
+    margin-bottom: 80px;
+}
+.img-one{
+    border-radius: 0px 17px 0px 35px;
+    padding: 40px 60px;
+    box-shadow: 5px 5px 20px lightgrey;
+}
+.img-one h4{
+    text-align: center;
+    margin: 20px;
+}
+.img-two-same{
+    box-shadow: 5px 5px 20px lightgrey;
+    border-radius: 17px 0px 35px 0px;
+    padding: 40px 60px;
+}
+.img-two-same h4{
+    text-align: center;
+    margin: 20px;
+}
+.btm-margin{
     margin-bottom: 50px;
+}
+.btm-margin-another{
+    margin-bottom: 100px;
 }
