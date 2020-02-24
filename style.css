@@ -1,0 +1,60 @@
+.hero-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+.margin-bottom-container{
+    margin-bottom: 80px;
+}
+.banner-left-padding{
+    padding-left: 30px;
+}
+.banner-left-padding p{
+    color: dimgray;
+}
+.buy-now-button{
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.see-all{
+    border: none;
+    background: transparent;
+    color: #FFAB25;
+}
+.card{
+    border: none;
+    padding: 30px 20px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 15px lightgray;
+}
+.card-text{
+    color: dimgray;
+    font-size: 14px;
+}
+.without-title-top{
+    margin-top: 35px;
+}
+.card-footer{
+    border-top: none;
+    background: white;
+}
+
+.categories{
+    margin-top: 150px;
+    text-align: center;
+}
+span{
+    display: block;
+    margin: 0 auto;
+    border-bottom: 7px solid orange;
+    width: 8%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
