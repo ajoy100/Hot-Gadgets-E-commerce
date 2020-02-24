@@ -11,33 +11,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <!--Navbar End-->
+  
+
+     <!-- Navigation  Section start-->
+        <nav class="navbar navbar-expand-lg nav-head fixed-top" id="mainNav">
+            <div class="container">
+            <a class="navbar-brand js-scroll-trigger wow slideInLeft" href="#page-top"><img src="images/logo.png" class="im-media img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#blandit">Contact Us</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    <!-- Navigation  Section End-->
 
     <!--Top Banner Start-->
-    <section class="hero-section margin-bottom-container">
+    <section class="hero-section margin-topp margin-bottom-container">
         <div class="container ">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -101,7 +105,7 @@
 
     <!--Smartphone section Start-->
     <div class="container margin-bottom-container">
-        <div class="row">
+        <div id="product" class="row">
             <div class="col-md-6">
                 <h4>Smartphone</h4>
             </div>
@@ -215,9 +219,9 @@
     <!--Laptop section End-->
 
     <!--Last Section Start-->
-    <div class="container">
+    <div id="categories" class="container">
         <h3 class="categories">Categories</h3>
-        <span></span>
+        <span class="span"></span>
 
         <!--Images-->
         <div class="row">
