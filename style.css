@@ -78,7 +78,18 @@
     border-top: none;
     background: white;
 }
-
+.section-two{
+    width: 100%;
+    float: left;
+}
+.section-three{
+    width: 100%;
+    float: left;
+}
+.section-four{
+    width: 100%;
+    float: left;
+}
 .categories{
     margin-top: 150px;
     text-align: center;
